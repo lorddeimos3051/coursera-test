@@ -1,23 +1,28 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
 	padding: 0;
 }
-
 #nv-collapse li {
 	background-color: #14f5cc;
 	text-align:center;
 	text-color: yellow;
 }
-
 .container {
-	background-color: blue;
 	width: 100%;
-	padding: 30px;
+	padding: 15px;
+	border: 2px solid black;
  }
-
- #content {
- 	border: 1px solid black;
+.col-md-4, .col-sm-3, .col-sm-4, .col-sm-6, .col-xs-12 {
  	margin: 15px auto 15px;
- 	padding: 10px; 
- 	background-color: yellow;
- }
+ 	padding: 15px;
+}
+
+#tile {
+	border: 1px solid black;
+	padding: 15px;
+	background-color: #AAAAAA;
+}
+ 
